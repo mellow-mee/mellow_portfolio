@@ -40,7 +40,7 @@
     </p>
 
     <p title="Contact">
-    <strong>Contact:</strong><br>
+    <strong>Contact Details:</strong><br>
     Room 115, Vivekanand Hostel<br>
     Phone: <a href="tel:+919729570848">9729570848</a><br>
     E-mail: <a href="mailto:ishaankajal.scorpion@gmail.com">ishaankajal.scorpion@gmail.com</a><br>
@@ -49,15 +49,25 @@
     <hr>
 
     <form action="" method="get">
-        <strong>Subscribe to newsletter</strong> <br>
+        <strong>Let's Connect!</strong> <br>
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter your name">
         <br>
         <label for="">Email:</label>
         <input type="email" name="email" id="email" placeholder="your@email.com">
         <br>
-        
-        <button type="submit">Subscribe</button>
+        <label for="reason">Purpose</label>
+        <select name="reason" id="reason">
+            <option value=""></option>
+            <option value="inquiry">General Inquiry</option>
+            <option value="invite">Event Invitation</option>
+            <option value="other">other</option>
+        </select>
+        <br>
+        <label for="message">Messsage:</label>
+        <input type="text" id="message">
+        <br>
+        <button type="submit">Send</button>
     </form>
 
 
